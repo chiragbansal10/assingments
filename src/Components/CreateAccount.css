@@ -1,0 +1,202 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.cards {
+    background: #ffffff;
+    padding: 0 rem;
+    border-radius: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.step-indicator{
+    background-color: #EBF0FF;
+    display: flex;
+    justify-content: center;
+}
+
+.lower-form{
+    padding: 4rem;
+
+}
+
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+   
+}
+
+.step1, .step2, .step3
+{
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+}
+.step1.active, .step2.active, .step3.active{
+    background-color: #73B3FB;
+    background-image: linear-gradient(to right, #A6E5FE , #69AAFA);
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 100px; 
+    border-bottom-right-radius: 100px;
+    flex-grow: 1;
+}
+.step2{
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+.step3{
+    flex-grow: 1;
+}
+
+.step.active
+{
+    background-color: #FAFEFC;
+    color: #69AAFA;
+    margin-right: 10px;
+    text-align: center;
+    padding: 5px;
+    
+}
+.step-label.active{
+    color: #FAFEFC;
+}
+
+
+.step
+{
+    margin-right: 10px;
+    text-align: center;
+    padding: 5px;
+    background-color: #BCC8E2;
+
+}
+.step-label{
+    color: #BCC8E2;
+    
+
+}
+
+.content
+{
+    
+    text-align: center;
+    line-height: 0.2;
+}
+.profile-content {
+    display: inline-block; 
+    max-width: 400px;    
+    /* margin: 0 auto;         */
+    line-height: 1.6;  
+    margin-left: 12.5rem;
+  }
+
+  .form-group{
+    width: 45%;
+}
+
+
+
+  .form-group-row
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1rem;
+  }
+
+
+.error-text {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+
+.step1.active.no-radius {
+    border-radius: 0 !important;
+    background-image: linear-gradient(to top, #ABE2FF , #86E3FD);
+
+
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 350px;
+    background-color:#58698f;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+.docu{
+    color: #5ca9fb;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+}
+.title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem; 
+    font-weight: bold;
+margin-top: 1px;
+color: white;
+}
+.header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 1rem;
+}
+.contact-link {
+    color: white;
+    text-decoration: none;
+    margin-left: auto; 
+}
+.back_first{
+    margin-left: 18rem;
+    background: none;
+    color: white;
+}
+.back_second{
+    margin-left: 18rem;
+    background: none;
+    color: white;
+}
+.submit-btn {
+    background:linear-gradient(to right, #9fddff, #73b2fc);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 19rem;
+}

@@ -1,0 +1,114 @@
+
+   .view-options {
+    display: flex;
+    justify-content: center; 
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.view-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #d1d5db;
+    padding: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    width: 218px;
+    height: 186px;
+}
+
+.view-option.selected {
+    background-color: #e0f7fa; 
+    border-color: #00796b;
+}
+
+.view-option:hover {
+    transform: scale(1.05); 
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    padding: 1rem;
+    width: 10rem;
+    height: auto;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.box {
+    border: 2px solid #9ca3af;
+}
+
+.small-box {
+    width: 5px;
+    height: 0.5rem;
+}
+
+.large-box {
+    width: 5px;
+    height: 5rem;
+}
+
+.medium-box {
+    width: 5px;
+    height: 3rem;
+}
+
+.tall-box {
+    width: 5px;
+    height: 4rem;
+}
+.listName{
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 5rem;
+}
+.boardName{
+    margin-left: 13rem;
+}
+.list_Name{
+    margin-left: 8rem;
+}
+.next-btn{
+    margin-left: 8rem;
+    background-color: #3d8df5;
+    color: white;
+}
+.back-btn{
+    margin-left: 2rem;
+    color: #939ba7;
+    background: none;
+}
+.select{
+   margin-left: 12rem;
+}
+.select_para{
+    margin-left: 8rem;
+}
+.dots-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 6px 0px 0px 0px;
+  }
+  
+  .dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: gray;
+  }

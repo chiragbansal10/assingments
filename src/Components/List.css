@@ -1,0 +1,50 @@
+.card {
+    border: 1px solid #d1d5db; 
+    border-radius: 0.5rem;
+    width: 8rem;
+}
+.innerCard{
+    border: 1px solid #d1d5db; 
+    border-radius: 0.5rem;
+    padding: .5rem;
+    margin: 1rem;
+     width: 5rem;
+}
+.content {
+    display: contents;
+    flex-direction: column; 
+}
+
+.outer-box {
+    margin: .5rem;
+}
+
+.inner-box {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #d1d5db; 
+    border-radius: 0.125rem; 
+   
+}
+
+.bar {
+    width: 2rem;
+    height: 0.2rem;
+    background-color: #d1d5db; 
+   
+}
+.bars {
+    width: 1rem;
+    height: 0.2rem;
+    background-color: #d1d5db; 
+   
+}
+
+.small-bar {
+    margin-bottom: .3rem;
+    margin-left: .2rem;
+}
+.outers_box{
+    display: flex;
+    
+}
